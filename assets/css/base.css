@@ -245,3 +245,37 @@ a {
 }
 
 
+.service img {
+    width: 100%;
+    max-width: 40px;
+
+}
+
+
+.service-page {
+    padding: 50px 0px;
+    width: 100%;
+}
+
+.service-page h2 {
+    font-family: var(--primaryfont);
+    font-size: 30px;
+    margin: 30px 0;
+
+}
+
+
+.service-item {
+    padding: 20px 0;
+}
+
+.service-item h3 {
+    font-family: var(--primaryfont);
+    padding: 15px 0px;
+}
+
+.service-item p {
+    color: rgb(79, 76, 76);
+    font-size: 16px;
+
+}
