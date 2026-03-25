@@ -242,3 +242,60 @@
 
 
 }
+
+
+
+
+
+
+@media screen and (max-width: 575px) {
+
+    .free-download {
+        padding: 60px 15px;
+        text-align: center;
+    }
+
+    .free-download h2 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .btn-download {
+        width: 100%;
+        max-width: 250px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+    .free-download {
+        padding: 80px 20px;
+    }
+
+    .free-download h2 {
+        font-size: 28px;
+    }
+
+    .btn-download {
+        padding: 12px 30px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .free-download {
+        padding: 100px 0;
+    }
+
+    .free-download h2 {
+        font-size: 35px;
+    }
+
+    .btn-download {
+        padding: 15px 35px;
+    }
+}
+

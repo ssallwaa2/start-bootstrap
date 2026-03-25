@@ -341,3 +341,39 @@ a {
 .item:hover .content {
     transform: translateY(0);
 }
+
+
+
+
+
+
+
+
+.free-download{
+    background-color: rgb(33, 37, 41);
+    color: white;
+   width: 100%;
+   padding: 100px 0px;
+}
+ .free-download h2{
+   margin-bottom: 20px;
+   font-family: var(--primaryfont);
+   font-size: 35px;
+ }
+
+.btn-download{
+    background-color: #fffefe;
+    color: rgb(0, 0, 0);
+    padding: 15px 9px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: var(--primaryfont);
+}
+
+.btn-download:hover{
+    background-color: rgb(152, 154, 156);
+     transform: scale(1.05);
+}
+
+
