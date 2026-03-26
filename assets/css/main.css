@@ -37,29 +37,7 @@
         flex-grow: 0;
     }
 
-    .content h1 {
-
-        font-size: 150%;
-    }
-
-    .content p {
-        max-width: 300px;
-        margin-top: 0px;
-        line-height: 1.5;
-
-    }
-
-
-    .btn-hero {
-        background-color: #f4623a;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 50px;
-        font-weight: bold;
-        transition: 0.3s;
-        font-family: var(--primaryfont);
-    }
-
+    
     .hero .line {
         width: 50px;
         height: 3px;
@@ -104,7 +82,7 @@
         flex-grow: 0;
     }
 
-
+/*
     .page-section p {
         color: rgb(255, 228, 213);
         padding: 20px 15px;
@@ -123,7 +101,7 @@
         flex-grow: 0;
 
     }
-
+*/
     .page-section a:hover {
         background-color: #d3cece;
     }
@@ -254,7 +232,7 @@
         padding: 60px 15px;
         text-align: center;
     }
-
+/*
     .free-download h2 {
         font-size: 22px;
         line-height: 1.4;
@@ -265,7 +243,7 @@
         max-width: 250px;
         padding: 10px 20px;
         font-size: 14px;
-    }
+    }*/
 }
 
 @media screen and (min-width: 576px) and (max-width: 991px) {
@@ -273,14 +251,14 @@
     .free-download {
         padding: 80px 20px;
     }
-
+/*
     .free-download h2 {
         font-size: 28px;
     }
 
     .btn-download {
         padding: 12px 30px;
-    }
+    }*/
 }
 
 
@@ -289,13 +267,50 @@
     .free-download {
         padding: 100px 0;
     }
-
+/*
     .free-download h2 {
         font-size: 35px;
     }
 
     .btn-download {
         padding: 15px 35px;
+    }*/
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .contact h2 {
+        font-size: 22px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        max-width: 100%;
     }
 }
+
+
+@media (max-width: 768px) {
+    .contact-info {
+        max-width: 90%;
+    }
+}
+
+
+@media (max-width: 576px) {
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
+
 

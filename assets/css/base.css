@@ -2,14 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+     max-width: 100%;
 }
 
 .container {
-    width: calc(100% - 50px);
+    width: 100%;
+    padding: 0 25px;
     margin: auto;
-
 }
 
+html, body {
+    overflow-x: hidden;
+}
 
 html {
     --primary-color: #000000;
@@ -31,7 +35,7 @@ html {
 
 
 
-.line {
+.content .line {
     width: 100px;
     height: 3px;
     background-color: #f4623a;
@@ -133,6 +137,7 @@ a {
     z-index: 1000;
     font-size: 20px;
     background-color: white;
+    box-shadow:0px 5px 10px 2px rgb(33 37 41 / 89%);
 }
 
 .header a {
@@ -187,6 +192,7 @@ a {
 .hero .content p {
     max-width: 600px;
     margin: 20px 0;
+    font-size: clamp(14px, 2.5vw, 25px);
     line-height: 1.8;
 }
 
@@ -194,7 +200,7 @@ a {
 .btn-hero {
     background-color: #f4623a;
     color: white;
-    padding: 15px 35px;
+     padding: clamp(10px, 1.5vw, 15px) clamp(20px, 3vw, 35px);
     border-radius: 50px;
     font-weight: bold;
     transition: 0.3s;
@@ -215,18 +221,19 @@ a {
 .page-section h2 {
     font-family: var(--primaryfont);
     color: white;
+    font-size: clamp(24px, 4vw, 40px);
 }
 
 .page-section p {
     color: rgb(255, 228, 213);
     padding: 30px 20px;
-    font-size: 25px;
+    font-size: clamp(14px, 2.5vw, 25px);
 }
 
 .btn-page {
     background-color: #fffefe;
     color: rgb(0, 0, 0);
-    padding: 15px 35px;
+    padding: clamp(10px, 1.5vw, 15px) clamp(20px, 3vw, 35px);
     border-radius: 50px;
     font-weight: bold;
     transition: 0.3s;
@@ -239,8 +246,9 @@ a {
 }
 
 .page-section .line {
-    width: 80px;
+   
     height: 3px;
+    width: clamp(50px, 10vw, 80px);
     background-color: #ffffff;
     margin-top: 30px;
 }
@@ -354,17 +362,18 @@ a {
     color: white;
    width: 100%;
    padding: 100px 0px;
+
 }
  .free-download h2{
    margin-bottom: 20px;
    font-family: var(--primaryfont);
-   font-size: 35px;
+   font-size: clamp(22px, 4vw, 35px);
  }
 
 .btn-download{
     background-color: #fffefe;
     color: rgb(0, 0, 0);
-    padding: 15px 9px;
+     padding: clamp(10px, 1.5vw, 15px) clamp(20px, 3vw, 35px);
     border-radius: 50px;
     font-weight: bold;
     transition: 0.3s;
@@ -375,5 +384,91 @@ a {
     background-color: rgb(152, 154, 156);
      transform: scale(1.05);
 }
+
+
+
+
+.contact {
+    padding: 50px 20px;
+}
+
+
+.contact .line {
+    width: 50px;
+    height: 3px;
+    background-color: #f4623a;
+    margin: 10px auto;
+}
+
+
+.contact h2 {
+    font-family: var(--primaryfont);
+    font-size: 30px;
+}
+
+
+.contact P{
+  color: rgb(102 98 98);
+  font-size: 19PX;
+}
+
+.contact img{
+    width: 100%;
+    max-width: 35px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    padding: 30px 0;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact-info input,
+.contact-info textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--primaryfont);
+}
+
+.contact-info textarea {
+    height: 150px;
+   
+}
+
+
+.button {
+    padding: 15px;
+    background-color: #f4623a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+    font-family: var(--primaryfont);
+}
+
+.button:hover {
+    background-color: #d94e2f;
+}
+
+
+footer{
+    background-color: #f5f1f1;
+   
+      padding: 55px 15px;
+}
+
+
+footer p{
+    font-size: 20px; 
+    color: #666;
+}
+
+
 
 
